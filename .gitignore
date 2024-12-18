@@ -1,0 +1,7 @@
+
+# Excluindo os arquivos desnecessarios
+# Modulos do Node
+node_modules/
+
+# Ambiente
+.env
