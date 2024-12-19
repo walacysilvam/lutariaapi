@@ -225,7 +225,7 @@ const createPersona = asyncHandler(async(req, res) => {
 		categoria,
 		periodo,
 		descricao,
-		foca,
+		forca,
 		inteligencia,
 		destreza,
 		carisma,
@@ -234,7 +234,7 @@ const createPersona = asyncHandler(async(req, res) => {
 		poder_total
 	});
 
-	res.status(201).json(persona);
+	res.status(200).json(persona);
 });
 
 /**
